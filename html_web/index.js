@@ -5,8 +5,6 @@ let i = 1;
 let id;
 let audio = new Audio("../Asset/bad_apple.wav");
 audio.preload = "auto";
-audio.load();
-
 start.addEventListener('click', () => {
     audio.addEventListener('play', () =>{
       id = setInterval(function() {
